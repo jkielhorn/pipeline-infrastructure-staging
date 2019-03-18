@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/hightowerlabs/pipeline
+      - image: gcr.io/jk-example-project/pipeline:5fdad3f22767580c2c9bfc1ea8a1c7ebfdee8b87
         name: pipeline
         ports:
         - containerPort: 80
